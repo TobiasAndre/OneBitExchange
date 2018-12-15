@@ -2,10 +2,11 @@
 
   .card{
     border: 0;
+    border-radius: 10px;
 
     .card-header{
-      background-color: #878d99;
-      border-radius: 0;
+      background-color: navy;
+      border-radius: 10px 10px 0 0;
       color: white;
       font-weight: 700;
     }
@@ -19,6 +20,13 @@
         font-weight: 700;
       }
 
+      .form-center {
+        text-align: center;
+      }
+
+      .bt-change-origin {
+        align-self: center;
+      }  
       .btn-exchange{
         background-color: #5bc0de;
         border-color: #5bc0de;
@@ -56,6 +64,10 @@
   }
 
   .btn-exchange {
+    font-size: 20px;
+  }
+
+  .bt-change-origin{
     font-size: 20px;
   }
 }

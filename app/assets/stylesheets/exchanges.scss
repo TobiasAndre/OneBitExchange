@@ -2,11 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
-  background: image-url("/background-img.jpg") no-repeat center center fixed;
+  background-image:  linear-gradient(to bottom,
+                                  rgba(247, 249, 248, 0.4),
+                                  rgba(247, 249, 248, 0.4),
+                                  rgba(247, 249, 248, 0.4),
+                                  rgba(247, 249, 248, 0.4),
+                                  rgba(255, 255, 255, 0.4)),
+                                          url("/background.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
 }
 
 .main{
@@ -34,6 +41,7 @@ body {
  
 .exchange_box{
   margin: 10px auto;
+  border-radius: 10px;
   .logo-box{
     margin: 0 auto;
     padding-bottom: 10px;
