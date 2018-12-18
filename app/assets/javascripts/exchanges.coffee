@@ -18,6 +18,12 @@ $(document).ready ->
             $('#result').val(data.value)
         return false;
 
+  $('#source_currency').change ->
+    $(this).parents('form').submit();
+    return
+  $('#target_currency').change ->
+    $(this).parents('form').submit();
+    return
   $('#amount').keyup ->
     $(this).parents('form').submit();
     return
